@@ -21,7 +21,7 @@ function showSuggestions(results) {
 	results.map(i => {
 		const li = document.createElement('li');
 		li.innerText = i;
-		li.addEventListener('click', useSuggestion);
+		//li.addEventListener('click', useSuggestion);
 		suggestions.append(li);
 	})
 }
